@@ -270,4 +270,4 @@ export const socials = [
 
 export const contactEmail = "kovira.aai@gmail.com";
 
-export const googleFormUrl = "https://forms.gle/p3pGX8QFN9LERE6v9";
+export const googleFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSef4-KqGRDwwOdSP4eh1Zr8q5vDrBB8MgHzpi2LNhiyP2wWOg/viewform";

@@ -1,8 +1,13 @@
 import Section from "./Section";
 import Heading from "./Heading";
+import Button from "./Button";
 import { googleFormUrl, contactEmail } from "../constants";
 
 const ApplicationForm = () => {
+  const handleApplyClick = () => {
+    window.open(googleFormUrl, "_blank", "noopener,noreferrer");
+  };
+
   return (
     <Section id="join-network">
       <div className="container relative z-2">
@@ -15,19 +20,16 @@ const ApplicationForm = () => {
         <div className="relative mt-10">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
             <div className="relative bg-n-8 rounded-[1rem] p-8 lg:p-12">
-              <div className="w-full h-[800px] lg:h-[900px]">
-                <iframe
-                  src={`${googleFormUrl}?embedded=true`}
-                  width="100%"
-                  height="100%"
-                  frameBorder="0"
-                  marginHeight="0"
-                  marginWidth="0"
-                  className="rounded-lg"
-                  title="KoviraAI Application Form"
-                >
-                  Loading…
-                </iframe>
+              <div className="flex flex-col items-center justify-center text-center py-16 lg:py-24">
+                <h3 className="h3 mb-6">Ready to Join?</h3>
+                <p className="body-1 text-n-2 mb-10 max-w-2xl">
+                  Take the first step towards connecting with global opportunities. 
+                  Click the button below to access our application form and become part of 
+                  Africa's premier AI talent network.
+                </p>
+                <Button onClick={handleApplyClick} white>
+                  Apply Now
+                </Button>
               </div>
             </div>
           </div>
