@@ -11,7 +11,9 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Chat Smarter, Not Harder with Brainwave"
+          tag="Why Join KoviraAI"
+          title="Connect with Global Opportunities"
+          text="Join Africa's premier AI talent network and unlock opportunities worldwide."
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
