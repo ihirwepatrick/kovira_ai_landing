@@ -37,7 +37,7 @@ const Header = () => {
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <Link className="flex items-center xl:mr-8" to="/">
           <span className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-color-1 leading-none">K</span>
-          <span className="text-xl md:text-2xl lg:text-3xl font-semibold text-n-1 ml-2 leading-tight">ovira</span>
+          <span className="text-xl md:text-2xl lg:text-3xl font-semibold text-n-1 ml-2 leading-tight">ovira AI</span>
         </Link>
 
         <nav
