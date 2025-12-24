@@ -1,7 +1,6 @@
 import { useLocation, Link } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
-import { brainwave } from "../assets";
 import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
@@ -36,8 +35,9 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <Link className="block w-[12rem] xl:mr-8" to="/">
-          <img src={brainwave} width={190} height={40} alt="KoviraAI" />
+        <Link className="flex items-center xl:mr-8" to="/">
+          <span className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-color-1 leading-none">K</span>
+          <span className="text-xl md:text-2xl lg:text-3xl font-semibold text-n-1 ml-2 leading-tight">ovira</span>
         </Link>
 
         <nav

@@ -8,9 +8,9 @@ export default {
     extend: {
       colors: {
         color: {
-          1: "#AC6AFF",
-          2: "#FFC876",
-          3: "#FF776F",
+          1: "#3B82F6", // Blue primary
+          2: "#60A5FA", // Blue light
+          3: "#2563EB", // Blue dark
           4: "#7ADB78",
           5: "#858DFF",
           6: "#FF98E2",
@@ -69,7 +69,7 @@ export default {
       backgroundImage: {
         "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
         "conic-gradient":
-          "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
+          "conic-gradient(from 225deg, #3B82F6, #60A5FA, #2563EB, #93C5FD, #3B82F6)",
       },
     },
   },
