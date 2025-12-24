@@ -17,7 +17,7 @@ const ApplicationForm = () => {
             <div className="relative bg-n-8 rounded-[1rem] p-8 lg:p-12">
               <div className="w-full h-[800px] lg:h-[900px]">
                 <iframe
-                  src={googleFormUrl}
+                  src={`${googleFormUrl}?embedded=true`}
                   width="100%"
                   height="100%"
                   frameBorder="0"

@@ -270,7 +270,4 @@ export const socials = [
 
 export const contactEmail = "kovira.aai@gmail.com";
 
-// IMPORTANT: Replace YOUR_FORM_ID with your actual Google Form ID
-// To get your form ID: Create a Google Form, click "Send", then copy the form ID from the embed URL
-// Example: https://docs.google.com/forms/d/e/1FAIpQLSd.../viewform?embedded=true
-export const googleFormUrl = "https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true";
+export const googleFormUrl = "https://forms.gle/p3pGX8QFN9LERE6v9";
